@@ -4,7 +4,7 @@
 
 ## 1. دانلود فولدر بازی
 ابتدا باید فولدر بازی را از [مخزن فولدر بازی رویداد](https://github.com/SharifAIChallenge/AIC21-Game) دانلود نمایید. سپس، آن را unzip کنید.
-![AIC21-Game](https://github.com/maghasemzadeh/tmp/blob/main/AIC21-Game.png?raw=True)
+![AIC21-Game](https://github.com/SharifAIChallenge/AIC21-Doc/blob/master/images/AIC21-Game.png?raw=True)
 
 
 
@@ -36,7 +36,7 @@
 پس از آن می‌توانید بازی را به صورت گرافیکی مشاهده کنید.
 توجه کنید که روی سیستم‌عامل‌های unix based، با اجرای دستور `chmod +x /path/to/graphic/file` آن را قابل اجرا کنید.
 
-![AIC21-Game](https://github.com/maghasemzadeh/tmp/blob/main/import.png?raw=True)
+![AIC21-Game](https://github.com/SharifAIChallenge/AIC21-Doc/blob/master/images/import.png?raw=True)
 
 
 
