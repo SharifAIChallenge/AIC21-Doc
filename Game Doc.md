@@ -12,12 +12,12 @@
 * باقی خانه‌های زمین، خانه‌های خالی هستند که مورچه‌ها می‌توانند در آن‌ها قرار بگیرند.
   
    
-![cells](https://github.com/maghasemzadeh/tmp/blob/main/Cells.png?raw=true)
+![cells](https://github.com/SharifAIChallenge/AIC21-Doc/blob/master/images/Cells.png?raw=true)
   
 ## منابع زمین
 * دو نوع منبع (نان و علف) در زمین موجود است. منابع در خانه‌های خالی قرار می‌دارند. پس از برداشت هر مورچه یک واحد از آن منبع کاهش پیدا می‌کند؛ هرگز در یک خانه دو نوع منبع قرار نمی‌گیرد (از آن جا که منبع در خانه‌ی خالی است، قرار گرفتن و عبور مورچه از خانه منبع بلامانع است).
   
-![resources](https://github.com/maghasemzadeh/tmp/blob/main/Resources.png?raw=true)
+![resources](https://github.com/SharifAIChallenge/AIC21-Doc/blob/master/images/Resources.png?raw=true)
   
 ## نیروها
 ### مورچه‌ی کارگر
@@ -27,7 +27,7 @@
   * نوار قرمز رنگ کنار مورچه‌ها نشان‌دهنده‌ی سلامتی مورچه می‌باشد.
   * عدد روی آن‌ها نیز بیان‌گر  id آن مورچه است.
   
-![ants](https://github.com/maghasemzadeh/tmp/blob/main/Ants.png?raw=true)
+![ants](https://github.com/SharifAIChallenge/AIC21-Doc/blob/master/images/Ants.png?raw=true)
   
 ### عقرب سرباز
   * **جان اولیه:** در هنگام تولید جونی برابر با health_sarbaz دارد.
@@ -36,14 +36,14 @@
   * نوار قرمز رنگ کنار عقرب‌ها نشان‌دهنده‌ی سلامتی سرباز است.
   * عدد روی سرباز بیان‌گر id سرباز می‌باشد.  
   
-![scorpions](https://github.com/maghasemzadeh/tmp/blob/main/Scorpions.png?raw=true)
+![scorpions](https://github.com/SharifAIChallenge/AIC21-Doc/blob/master/images/Scorpions.png?raw=true)
 
 
 ### مشخصات
 هر مورچه در هر لحظه یک مکان (x, y) دارد. همچنین هر مورچه مقدار مشخصی جان دارد که در زمانی که تولید می‌شود برابر مقدار اولیه است.
 
 ### اکشن‌ها
-هر مورچه می تواند در هر نوبت خود به یکی از خانه های بالا، پایین، چپ یا راست خود(به شرط اینکه دیوار نباشد) برود یا در جای خود باقی بماند. هر مورچه در هر نوبت می تواند یک پیام با طول محدود و ارزش مشخص برای قرار گرفتن در چت باکس دور بعد ارسال کند (پیام‌ها در بخش [ارتباط مورچه‌ها](https://aichallenge.ir/dashboard/doc/game-doc#%D8%A7%D8%B1%D8%AA%D8%A8%D8%A7%D8%B7-%D9%85%D9%88%D8%B1%DA%86%D9%87%E2%80%8C%D9%87%D8%A7) توضیح داده شده‌اند).
+هر مورچه می تواند در هر نوبت خود به یکی از خانه های بالا، پایین، چپ یا راست خود(به شرط اینکه دیوار نباشد) برود یا در جای خود باقی بماند. هر مورچه در هر نوبت می تواند یک پیام با طول محدود و ارزش مشخص برای قرار گرفتن در چت باکس دور بعد ارسال کند (پیام‌ها در بخش [ارتباط مورچه‌ها](https://aichallenge.ir/dashboard/doc/Game%20Doc#%D8%A7%D8%B1%D8%AA%D8%A8%D8%A7%D8%B7-%D9%85%D9%88%D8%B1%DA%86%D9%87%E2%80%8C%D9%87%D8%A7) توضیح داده شده‌اند).
 
 
 ### ساخت مورچه
