@@ -156,7 +156,7 @@ make
 
 `int getRateDeathResource()`
 
-مقدار پارامتر `rate_death_resource را برمی گرداند.
+مقدار پارامتر `rate_death_resource` را برمی گرداند.
 
 ### Ant
 
