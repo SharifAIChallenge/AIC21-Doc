@@ -7,7 +7,7 @@
 بعد از نصب داکر ابتدا باید ایمیج داکری که قابلیت‌های بالا را داراست، از سرور رجیستری ما *pull* کنید که با زدن دستور زیر، به راحتی این کار انجام می‌شود:
 
 ```
-docker pull reg.aichallenge.ir/aic-server:latest
+docker pull reg.aichallenge.ir/aic-server
 ```
 
 _توجه: ممکن است اولین بار که این ایمیج را دریافت می‌کنید، کمی زمان ببرد، اما در آپدیت‌های بعدی سرور که این ایمیج نیز آپدیت می‌شود و نیاز است که شما دوباره آن را *pull* کنید، اجرای این دستور، زمان بسیار کمتری خواهد گرفت._
@@ -19,7 +19,7 @@ _توجه: ممکن است اولین بار که این ایمیج را دری�
 بعد از گرفتن خروجی *jar* به کمک *IntelliJ* یا هر ابزار کمکی دیگر از کد جاوایتان، ابتدا این فایل *jar* را در هر فولدری که دوست دارید، قرار دهید، سپس دستور زیر را در همان فولدری که فایل *jar* قرار دارد، بزنید:
 
 ```
-docker run --name aics -it --rm --mount type=bind,source="$(pwd)",target=/home/code reg.aichallenge.ir/aic-server:latest compile -l jar -e jarfilename.jar -o java-binary
+docker run --name aics -it --rm --mount type=bind,source="$(pwd)",target=/home/code reg.aichallenge.ir/aic-server compile -l jar -e jarfilename.jar -o java-binary
 ```
 
 اکنون فایلی با اسم *java-binary* در کنار فایل *jar*شما قرار خواهد گرفت. این فایل آماده‌ی اجرا توسط سرور می‌باشد.
@@ -31,7 +31,7 @@ docker run --name aics -it --rm --mount type=bind,source="$(pwd)",target=/home/c
 وارد فولدر کلاینت پایتون خود شوید یعنی جایی که فایل *Controller.py* قرار دارد. سپس دستور زیر را بزنید: 
 
 ```
-docker run --name aics -it --rm --mount type=bind,source="$(pwd)",target=/home/code reg.aichallenge.ir/aic-server:latest compile -l python -e Controller.py -o -o python-binary
+docker run --name aics -it --rm --mount type=bind,source="$(pwd)",target=/home/code reg.aichallenge.ir/aic-server compile -l python -e Controller.py -o -o python-binary
 ```
 
 اکنون فایلی با اسم *python-binary* در کنار سایر فایل‌های شما قرار خواهد گرفت. این فایل آماده‌ی اجرا توسط سرور می‌باشد.
@@ -41,7 +41,7 @@ docker run --name aics -it --rm --mount type=bind,source="$(pwd)",target=/home/c
 وارد فولدر کلاینت سی‌پلاس‌پلاس خود شوید و دستور زیر را بزنید:
 
 ```
-docker run --name aics -it --rm --mount type=bind,source="$(pwd)",target=/home/code reg.aichallenge.ir/aic-server:latest compile -l cpp -o cpp-binary
+docker run --name aics -it --rm --mount type=bind,source="$(pwd)",target=/home/code reg.aichallenge.ir/aic-server compile -l cpp -o cpp-binary
 ```
 
 اکنون فایلی با اسم *cpp-binary* در کنار سایر فایل‌های شما قرار خواهد گرفت. این فایل آماده‌ی اجرا توسط سرور می‌باشد.
@@ -50,7 +50,7 @@ docker run --name aics -it --rm --mount type=bind,source="$(pwd)",target=/home/c
 همچنین با زدن دستور زیر می‌توانید اطلاعات کمکی بیشتری از دستور *compile* بدست آوردید:
 
 ```
-docker run --name aics -it --rm --mount type=bind,source="$(pwd)",target=/home/code reg.aichallenge.ir/aic-server:latest compile --help
+docker run --name aics -it --rm --mount type=bind,source="$(pwd)",target=/home/code reg.aichallenge.ir/aic-server compile --help
 ```
 
 همچنین اگر کامپایل با خطا رو به رو شد، می‌توانید لاگ مربوط به کامپایل را در فایل *compile.log* ببینید.
@@ -70,7 +70,7 @@ docker run --name aics -it --rm --mount type=bind,source="$(pwd)",target=/home/c
 حال به عنوان مثال، دستور زیر یک بازی بین ۲ کلاینت باینری‌ شده‌ی جاوا اجرا می‌کند و پس از اتمام بازی نیز، فایل *log.json* را در همین فولدر قرار می‌دهد.
 
 ```
-docker run --name aic21 -it --rm --mount type=bind,source="$(pwd)",target=/home/code reg.aichallenge.ir/aic-server:latest server --first-team=./java-binary --second-team=./java-binary
+docker run --name aic21 -it --rm --mount type=bind,source="$(pwd)",target=/home/code reg.aichallenge.ir/aic-server server --first-team=./java-binary --second-team=./java-binary
 ```
 
 و بعد از اجرای کامل بازی به صورت زیر خواهد بود: 
