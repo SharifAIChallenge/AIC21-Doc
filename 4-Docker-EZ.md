@@ -66,6 +66,7 @@ docker run --name aics -it --rm --mount type=bind,source="$(pwd)",target=/home/c
 ```
 .
 ├── java-binary
+├── map.json
 └── map.config
 ```
 
@@ -84,6 +85,7 @@ docker run --name aic21 -it --rm --mount type=bind,source="$(pwd)",target=/home/
 │   └── server
 │       └── server.log
 ├── log.json
+├── map.json
 └── map.config
 ```
 
