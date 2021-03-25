@@ -15,7 +15,7 @@
 
 `File --> Project Structure --> Project Settings --> Artifacts --> green plus sign --> Jar --> From modules with dependencies`
 
-![jar](https://github.com/maghasemzadeh/tmp/blob/main/jar.png?raw=true)
+![jar](https://github.com/SharifAIChallenge/AIC21-Doc/blob/master/images/jar.png?raw=true)
 
 هر بار که تغییری در کد کلاینت داده شد، برای اجرا باید یک فایل jar تازه ساخته‌شود. مراحل ساخت فایل jar و اطلاعات بیشتر را در [داکیومنتیشن Intellij](https://www.jetbrains.com/help/idea/compiling-applications.html#compile_module) و همچنین [این پست در Stack Overflow](https://stackoverflow.com/questions/1082580/how-to-build-jars-from-intellij-properly) نیز می‌توانید مشاهده کنید.
 
@@ -224,12 +224,12 @@ make
 پس از آن می‌توانید بازی را به صورت گرافیکی مشاهده کنید.
 توجه کنید که روی سیستم‌عامل‌های unix based، ابتدا باید با اجرای دستور`chmod +x /path/to/graphic/file` آن را قابل اجرا کنید.
 
-![AIC21-Game](https://github.com/maghasemzadeh/tmp/blob/main/import.png?raw=True)
+![AIC21-Game](https://github.com/SharifAIChallenge/AIC21-Doc/blob/master/images/import.png?raw=True)
   
  ## نوار امکانات
 در بالای رابط گرافیکی، نواری‌ست که امکانات و هم‌چنین اطلاعاتی از بازی در اختیار شما قرار می‌دهد. این اطلاعات و امکانات به شرح زیر‌اند:  
   
-![bar](https://github.com/maghasemzadeh/tmp/blob/main/Bar.png?raw=true)
+![bar](https://github.com/SharifAIChallenge/AIC21-Doc/blob/master/images/Bar.png?raw=true)
   
 ۱- این دکمه چت باکس هر تیم را نشان میدهد.  
 ۲- در این قسمت اسم هر تیم نشان داده میشود.  
