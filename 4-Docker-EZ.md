@@ -31,7 +31,7 @@ docker run --name aics -it --rm --mount type=bind,source="$(pwd)",target=/home/c
 وارد فولدر کلاینت پایتون خود شوید یعنی جایی که فایل *Controller.py* قرار دارد. سپس دستور زیر را بزنید: 
 
 ```
-docker run --name aics -it --rm --mount type=bind,source="$(pwd)",target=/home/code reg.aichallenge.ir/aic-server:latest compile -l python -e Controller.py -o -o python-binary
+docker run --name aics -it --rm --mount type=bind,source="$(pwd)",target=/home/code reg.aichallenge.ir/aic-server:latest compile -l python -e Controller.py -o python-binary
 ```
 
 اکنون فایلی با اسم *python-binary* در کنار سایر فایل‌های شما قرار خواهد گرفت. این فایل آماده‌ی اجرا توسط سرور می‌باشد.
