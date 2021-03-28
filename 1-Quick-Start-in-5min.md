@@ -21,8 +21,9 @@
   ```bash
   java --version
   ```
-درصورتی که در جواب، ورژن جاوا نوشته شده باشد، به این معناست که شما جاوا را در دستگاه خود دارید. درغیر اینصورت و در صورت دادن ارور، بایستی با استفاده از [این لینک](https://java.com/en/download/help/download_options.html) جاوا را نصب کنید.
-پس از نصب می‌توانید با اجرای کد زیر، بازی را اجرا کنید.
+درصورتی که در جواب، ورژن جاوا نوشته شده باشد، به این معناست که شما جاوا را در دستگاه خود دارید. درغیر اینصورت و در صورت دادن ارور، بایستی با استفاده از [این لینک](https://java.com/en/download/help/download_options.html) جاوا را نصب کنید.  
+فایل map.config را از [ریپوی گیم](https://github.com/SharifAIChallenge/AIC21-Game/blob/main/server/map.config) دریافت کنید د در کنار سرور قرار دهید.
+حالا می‌توانید با اجرای دستور زیر، بازی را اجرا کنید.
 
   ```bash
   java -jar /path/to/server.jar --first-team=/path/to/first-client --second-team=/path/to/second_client
