@@ -53,7 +53,9 @@ make
 
 ## اجرای سرور
 برای اجرای سرور، بهتر از java 11 به بالا استفاده کنید.
-ابتدا آخرین نسخه ریلیز سرور را از [این‌جا](https://github.com/SharifAIChallenge/AIC21-Game/tree/main/server) دانلود کنید (فایل server.jar). سپس سرور را به این شکل اجرا کنید:   
+ابتدا آخرین نسخه ریلیز سرور را از [این‌جا](https://github.com/SharifAIChallenge/AIC21-Game/tree/main/server) دانلود کنید (فایل server.jar).  
+فایل map.config را از [ریپوی گیم](https://github.com/SharifAIChallenge/AIC21-Game/blob/main/server/map.config) دریافت کنید د در کنار سرور قرار دهید.  
+سپس سرور را به این شکل اجرا کنید:   
 `java -jar server.jar --first-team=/path/to/first/client --second-team=/path/to/second/client --read-map=/path/to/map/json/file`
   
 در بالا دو آرگومان اول محل قرار گیری فایل کلاینت برای تیم اول و تیم دوم را مشخص می کنند.  این فایل برای کلاینت جاوا همان فایل jar تولید شده است ، برای کلاینت پایتون خروجی باینری و برای کلاینت cpp همان خروجی حاصل از بیلد گرفتن کلاینت است.   
