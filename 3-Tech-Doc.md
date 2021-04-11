@@ -36,6 +36,7 @@
 ```
 pyinstaller --onefile /path/to/Controller.py
 ```
+پس از آن، دو فولدر dist و build و یک فایل Controller.spec در محل کامند، ساخته خواهد شد. شما باید آدرس dist/Controller را که یک فایل باینری قابل اجراست، به سرور بدهید.
 
 دقت کنید که پس از هر بار تغییر در کد، پوشه های build و dist را پاک کنید و مجددا با PyInstaller بیلد بگیرید.
 
