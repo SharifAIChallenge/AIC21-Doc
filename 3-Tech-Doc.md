@@ -31,6 +31,12 @@
 
   * [Mac OS](https://ahmadawais.com/install-pip-macos-os-x-python/)
 
+پس از نصب pip و سپس pyinstaller، باید کد زیر را با آدرس درست Controller.py اجرا کنید.
+
+```
+pyinstaller --onefile /path/to/Controller.py
+```
+
 دقت کنید که پس از هر بار تغییر در کد، پوشه های build و dist را پاک کنید و مجددا با PyInstaller بیلد بگیرید.
 
 ## کلاینت سی‌پی‌پی
