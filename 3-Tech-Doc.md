@@ -135,31 +135,21 @@ pip3 install PySimpleGUI
 
 `int getMapHeight()` ارتفاع زمین بازی را برمی گرداند.
 
-`int getBaseX()`
-مختصات X پایگاه تیم نیرو فعلی را بر می گرداند.
+`int getBaseX()` مختصات X پایگاه تیم نیرو فعلی را بر می گرداند.
 
-`int getBaseY()`
-مختصات Y پایگاه تیم نیرو فعلی را بر می گرداند.
+`int getBaseY()` مختصات Y پایگاه تیم نیرو فعلی را بر می گرداند.
 
-`int getHealthKargar()`
-مقدار جان اولیه کارگر را بر می گرداند.
+`int getHealthKargar()` مقدار جان اولیه کارگر را بر می گرداند.
 
-`int getHealthSarbaaz()`
-مقدار جان اولیه نیرو های سرباز را بر می گرداند.
+`int getHealthSarbaaz()` مقدار جان اولیه نیرو های سرباز را بر می گرداند.
 
-`int getAttackDistance()`
-فاصله منهتنی برای حمله نیرو سرباز را برمی گرداند.
+`int getAttackDistance()` فاصله منهتنی برای حمله نیرو سرباز را برمی گرداند.
 
-`int getGenerateKargar()`
-مقدار منبع مورد نیاز برای تولید کارگر را برمی گرداند.
+`int getGenerateKargar()` مقدار منبع مورد نیاز برای تولید کارگر را برمی گرداند.
 
-`int getGenerateSarbaaz()`
-مقدار منبع مورد نیاز برای تولید سرباز را برمی گرداند.
+`int getGenerateSarbaaz()` مقدار منبع مورد نیاز برای تولید سرباز را برمی گرداند.
 
-`int getRateDeathResource()`
-مقدار پارامتر
-rate_death_resource
-را برمی گرداند.
+`int getRateDeathResource()` مقدار پارامتر rate_death_resource را برمی گرداند.
 
 ### Ant
 این آبجکت اطلاعات انحصاری هر ایجنت را در بر دارد. برای دسترسی به این اطلاعات از توابع زیر می‌توانید استفاده کنید:
