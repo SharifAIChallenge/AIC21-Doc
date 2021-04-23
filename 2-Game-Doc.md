@@ -109,6 +109,6 @@
 |map_size         | 35   |  حداکثر طول هر ضلع نقشه                  |
 |map_wall_perc    | 20%  |  درصدی از مپ که دیوارها هستند    |
 |min_base_dist    | 10   |  حداقل فاصله‌ی دو پایگاه         |
-|work_rec_amount  | 800   |  مقدار گندم موجود در نقشه        |
-|attack_rec_amount| 800   |  مقدار علف موجود در نقشه         |
+|work_rec_amount  | 800   | حداکثر مقدار گندم موجود در نقشه        |
+|attack_rec_amount| 800   |  حداکثر مقدار علف موجود در نقشه         |
 |mirror_effect    | yes  | [اتصال بالا و پایین و چپ راست زمین](https://github.com/SharifAIChallenge/AIC21-Doc/blob/main/2-Game-Doc.md#%D8%A7%D8%AA%D8%B5%D8%A7%D9%84-%D8%B7%D8%B1%D9%81%DB%8C%D9%86-%D9%86%D9%82%D8%B4%D9%87) |
