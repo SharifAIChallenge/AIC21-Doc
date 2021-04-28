@@ -18,7 +18,7 @@
 باقی‌ خانه‌ها نیز کاملا خالی هستند. 
 
 در تصویر زیر، خانه‌ی بالایی یک خانه‌ی خالی‌ست. پایین سمت راست یک swamp و پایین سمت چپ یک trap.  
-![cells2](https://github.com/SharifAIChallenge/AIC21-Doc/blob/master/images/trap_swamp.jpg?raw=true)
+![cells2](https://raw.githubusercontent.com/SharifAIChallenge/AIC21-Doc/main/images/trap_swamp.jpg)
 
 * trapها روی عقرب‌ها تاثیری ندارند.
 * اثر swamp روی تمامی نیروهاست.
